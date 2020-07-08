@@ -1,0 +1,171 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	padding: 100px 0 0 326px;
+	margin-bottom: 200px;
+	background: #e8e8e8;
+}
+.text p{
+	background: url('../img/check_icon.png') 0 10px no-repeat;
+	padding: 0 0 0 35px ;
+	margin-top: 15px;
+}
+.text p:first-child{
+	color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-decoration: line-through;
+}
+.text p:nth-child(2){
+	color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: bold;
+line-height: 36px;
+}
+.text p:nth-child(3){
+	color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+font-style: italic;
+}
+.text p:nth-child(4){
+	color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.text p:nth-child(5){
+	color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+.text p:nth-child(6){
+	color: #273d46;
+	font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+.text .rednum:hover{
+	color: #d55a5a;
+	background: url('../img/check_icon2.png') 0 10px no-repeat;
+}
+.text p:nth-child(7){
+    color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+.text p:nth-child(8){
+    color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.link a{
+	border: 1px solid #666666;
+}
+.link{
+	margin-top: 80px;
+}
+.textinput{
+	margin-top: 80px;
+	border: 1px solid #666666;
+}
+.link a{
+	background: url('../img/Shape_2.png') 150px 14px no-repeat, #89bbb7;
+	color: white;
+	height: 44px;
+	width: 200px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	border-radius: 60px;
+	display: inline-block;
+}
+.link a:hover{
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+.link .bottomlink3:active{
+	background-color: #818181;
+}
+
+.link .bottomlink2{
+	margin-left: 60px;
+}
+.link .bottomlink3{
+	margin-left: 60px;
+}
+.link .bottomlink2:hover{
+	
+	background-color: #3a5856;
+}
+.inputInfo .textinput{
+	border: 1px solid #b0b0b0;
+	display: inline-block;
+	height: 50px;
+	width: 292px;
+}
+.inputInfo .textinput2 {
+	border: 1px solid #b0b0b0;
+	display: inline-block;
+	height: 50px;
+	width: 292px;
+}
+.inputInfo .textinput2{
+	margin-left:50px;
+}
+.inputInfo .textinput2:focus{
+	box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+	border: 1px solid #7fbed5;
+}
+
